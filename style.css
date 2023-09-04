@@ -1,0 +1,193 @@
+#gradient{
+  background-image: linear-gradient(to right, rgba(135, 112, 112, 0), rgb(206, 173, 173));
+}
+
+
+p {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 1em;
+    background-color: #f0f0f0;
+    padding: 10px;
+  }
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+    padding: 5px;
+    color:black;
+
+  }
+  
+  h3,h4{
+    color: blueviolet;
+    text-align: center;
+  }
+  .mission,.vission {
+    color: black;
+    font-size: medium;
+    padding: 20px;
+    word-spacing: 10px;
+  }
+  th,td{
+    padding: 12px;
+  }
+  tr:nth-child(even){
+    background-color: #f2f292;
+  }th{
+    background-color: #fcaf50;color: white;
+  }
+  img{
+    border-radius: 2em;
+    object-fit: cover;
+  }
+  nav{
+    background-color: #fcaf50;
+    display: flex;
+  }
+  form {
+    max-width: 600px;
+    height: 900px;
+    margin: 0 auto;
+    background-size: cover;
+    background-image: url(images/gptc.jpg.jpg);
+    padding: 20px;
+    opacity: 0.5;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.title{
+  background-color: transparent;
+  color: black;
+  font-size: 50px;
+  font-family:poppins;
+  font-weight: ;
+  text-align: center;
+  letter-spacing: -1px;
+}
+span {
+  color: #0b0b0b;
+  margin-left: 100px;
+ margin-top: 500px;
+  font-size: 25px;
+  cursor: text;
+  transition: 0.3s ease;
+}
+.input{
+  width: 270px;
+  margin: left 5px;
+height:47px;
+padding: 12px 20px 12px 20px;
+border-radius: 10px;
+border: 1px;
+gap: 8px;
+display: flex;
+align-items:end;
+background: linear-gradient(0deg, #0f0f0f, #2E333A),
+linear-gradient(0deg, #0ED2F6, #0ED2F6);
+border: 1px solid #0ED2F6;
+box-shadow: 3.7338130474090576px 3.7338130474090576px 6.223021507263184px 0px #000 inset;
+
+box-shadow: -6.223021507263184px -6.223021507263184px 6.223021507263184px 0px #000 inset;
+}
+.input2{
+  width: 350px;
+height:47px;
+padding: 12px 20px 12px 20px;
+border-radius: 10px;
+border: 1px;
+gap: 8px;
+margin-top: 30px;
+display: flex;
+align-items:end;
+color: #ece0e0;
+font-size: 30px;
+font-family: poppins;
+background: linear-gradient(0deg, #2E333A, #2E333A),
+linear-gradient(0deg, #0ED2F6, #0ED2F6);
+border: 1px solid #0ED2F6;
+box-shadow: 3.7338130474090576px 3.7338130474090576px 6.223021507263184px 0px #000 inset;
+
+box-shadow: -6.223021507263184px -6.223021507263184px 6.223021507263184px 0px #000 inset;
+}
+textarea{
+  width: 550px;
+height: 300px;
+padding: 12px 20px 12px 20px;
+border-radius: 10px;
+border: 1px;
+gap: 8px;
+margin-top: 30px;
+
+display: flex;
+align-items:end;
+background: linear-gradient(0deg, #2E333A, #2E333A),
+linear-gradient(0deg, #0ED2F6, #0ED2F6);
+border: 1px solid #0ED2F6;
+box-shadow: 3.7338130474090576px 3.7338130474090576px 6.223021507263184px 0px #000 inset;
+
+box-shadow: -6.223021507263184px -6.223021507263184px 6.223021507263184px 0px #000 inset;
+}
+#input3{
+  padding: 12px 20px 12px 20px;
+  border-radius: 10px;
+  border: 1px;
+  gap: 8px;
+  margin-top: 30px;
+  display: flex;
+  align-items:end;
+  color: #ece0e0;
+  font-size: 30px;
+  font-family: poppins;
+  background: linear-gradient(0deg, #2E333A, #2E333A),
+  linear-gradient(0deg, #0ED2F6, #0ED2F6);
+  border: 1px solid #0ED2F6;
+  box-shadow: 3.7338130474090576px 3.7338130474090576px 6.223021507263184px 0px #000 inset;
+  
+  box-shadow: -6.223021507263184px -6.223021507263184px 6.223021507263184px 0px #000 inset;
+  
+}
+.submit{
+  width: 400px;
+  border: none;
+  outline: none;
+  margin-left: 60px;
+  padding: 10px;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 16px;
+  transform: .3s ease;
+  background-color: #00bfff;
+}
+.submit:hover{
+  background-color: #00bfff96;
+}
+#text1{
+  font-size:20px;
+  color: #000;
+}
+ #staff{
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff; /* Button background color */
+  color: #fff; /* Text color */
+  border: none;
+  border-radius: 50px; /* Border radius to make it rounded */
+  outline: none;
+  font-size: 18px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+margin-left:45%;
+}
+
+ #staff:hover{
+  background-color: #141415; /* Hover background color */
+}
+#thankyou{
+background-color: #00bfff;
+  text-align: center;
+  justify-content: center;
+
+}
